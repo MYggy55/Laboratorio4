@@ -1,0 +1,316 @@
+ACOPIOGT | CONTROL DE LOTES Y DESPACHOS
+Carga inicial: 10 lotes y 3 bodegas, sin pagos ni cobros. Decimales con punto.
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: Entrada inválida: ingresa un entero.
+Opción: CAFE | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+CAFE_ORGANICO | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+CARDAMOMO | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+HORTALIZA | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+QUESO_FRESCO | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: HOR-A | HORTALIZA | Elena | Ingreso: 2026-11-10 | Calidad: A | Recibido: 200 kg | Disponible: 200 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: F1 | Vida útil: 7 días | Cámara fría
+QUE-A | QUESO_FRESCO | Rosa | Ingreso: 2026-10-27 | Calidad: A | Recibido: 40 kg | Disponible: 40 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: F1 | Grasa: 25% | Cámara fría
+CAR-A | CARDAMOMO | Pedro | Ingreso: 2026-05-21 | Calidad: B | Recibido: 80 kg | Disponible: 80 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: S1 | Grano verde: 90%
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: 1. CAFE
+2. CAFE_ORGANICO
+3. CARDAMOMO
+4. HORTALIZA
+5. QUESO_FRESCO
+Categoría: Código del lote: Productor: Peso recibido en kg: Entrada inválida: usa un número con punto decimal.
+Peso recibido en kg: Calidad (A/B/C): Humedad (%): Pago: Q1128.00 | Vencimiento: No vence
+¿Aceptar y recibir? (s/n): Pre-liquidación sin recepción: no se modifica ningún registro.
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: CAFE | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+CAFE_ORGANICO | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+CARDAMOMO | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+HORTALIZA | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+QUESO_FRESCO | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: 1. CAFE
+2. CAFE_ORGANICO
+3. CARDAMOMO
+4. HORTALIZA
+5. QUESO_FRESCO
+Categoría: Código del lote: Productor: Peso recibido en kg: Calidad (A/B/C): Humedad (%): Pago: Q1128.00 | Vencimiento: No vence
+¿Aceptar y recibir? (s/n): Código de bodega: Lote recibido. Pago registrado: Q1128.00
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: Código del pedido: 1. CAFE
+2. CAFE_ORGANICO
+3. CARDAMOMO
+4. HORTALIZA
+5. QUESO_FRESCO
+Categoría: Kilogramos: Pedido P1 | CAFE
+CAF-A | S1 | 100 kg | Q1522.80
+Total cobrado: Q1522.80
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: Código del pedido: 1. CAFE
+2. CAFE_ORGANICO
+3. CARDAMOMO
+4. HORTALIZA
+5. QUESO_FRESCO
+Categoría: Kilogramos: Operación rechazada: No hay existencias suficientes; el pedido no se registra.
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: Código: Capacidad en kg: ¿Cámara fría? (s/n): Bodega registrada.
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: HOR-A | HORTALIZA | Elena | Ingreso: 2026-11-10 | Calidad: A | Recibido: 200 kg | Disponible: 200 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: F1 | Vida útil: 7 días | Cámara fría
+QUE-A | QUESO_FRESCO | Rosa | Ingreso: 2026-10-27 | Calidad: A | Recibido: 40 kg | Disponible: 40 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: F1 | Grasa: 25% | Cámara fría
+CAR-A | CARDAMOMO | Pedro | Ingreso: 2026-05-21 | Calidad: B | Recibido: 80 kg | Disponible: 80 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: S1 | Grano verde: 90%
+HOR-B | HORTALIZA | Marco | Ingreso: 2026-11-13 | Calidad: B | Recibido: 120 kg | Disponible: 120 kg | DISPONIBLE | Vence: 2026-11-23 | Bodega: F1 | Vida útil: 10 días | Cámara fría
+QUE-B | QUESO_FRESCO | Hugo | Ingreso: 2026-11-11 | Calidad: B | Recibido: 60 kg | Disponible: 60 kg | DISPONIBLE | Vence: 2026-12-02 | Bodega: F1 | Grasa: 20% | Cámara fría
+CAR-B | CARDAMOMO | Sara | Ingreso: 2026-08-08 | Calidad: A | Recibido: 100 kg | Disponible: 100 kg | DISPONIBLE | Vence: 2027-02-04 | Bodega: S2 | Grano verde: 80%
+CAF-A | CAFE | Ana | Ingreso: 2026-11-06 | Calidad: A | Recibido: 500 kg | Disponible: 400 kg | DISPONIBLE | Vence: No vence | Bodega: S1 | Humedad: 13.4%
+CAF-B | CAFE | Luis | Ingreso: 2026-11-06 | Calidad: B | Recibido: 300 kg | Disponible: 300 kg | DISPONIBLE | Vence: No vence | Bodega: S2 | Humedad: 12%
+ORG-A | CAFE_ORGANICO | Marta | Ingreso: 2026-11-07 | Calidad: A | Recibido: 500 kg | Disponible: 500 kg | DISPONIBLE | Vence: No vence | Bodega: S1 | Humedad: 13.4% | Sello: CertiGT | Vigencia: 2027-11-16
+ORG-B | CAFE_ORGANICO | Juan | Ingreso: 2026-11-08 | Calidad: B | Recibido: 100 kg | Disponible: 100 kg | DISPONIBLE | Vence: No vence | Bodega: S2 | Humedad: 11% | Sello: EcoGT | Vigencia: 2027-02-24
+NUEVO | CAFE | Pedro | Ingreso: 2026-11-16 | Calidad: A | Recibido: 100 kg | Disponible: 100 kg | DISPONIBLE | Vence: No vence | Bodega: S1 | Humedad: 13.4%
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: F1 | FRIA | Ocupación: 420/3000 kg
+  HOR-A | HORTALIZA | Elena | Ingreso: 2026-11-10 | Calidad: A | Recibido: 200 kg | Disponible: 200 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: F1 | Vida útil: 7 días | Cámara fría
+  QUE-A | QUESO_FRESCO | Rosa | Ingreso: 2026-10-27 | Calidad: A | Recibido: 40 kg | Disponible: 40 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: F1 | Grasa: 25% | Cámara fría
+  HOR-B | HORTALIZA | Marco | Ingreso: 2026-11-13 | Calidad: B | Recibido: 120 kg | Disponible: 120 kg | DISPONIBLE | Vence: 2026-11-23 | Bodega: F1 | Vida útil: 10 días | Cámara fría
+  QUE-B | QUESO_FRESCO | Hugo | Ingreso: 2026-11-11 | Calidad: B | Recibido: 60 kg | Disponible: 60 kg | DISPONIBLE | Vence: 2026-12-02 | Bodega: F1 | Grasa: 20% | Cámara fría
+S1 | SECA | Ocupación: 1080/5000 kg
+  CAR-A | CARDAMOMO | Pedro | Ingreso: 2026-05-21 | Calidad: B | Recibido: 80 kg | Disponible: 80 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: S1 | Grano verde: 90%
+  CAF-A | CAFE | Ana | Ingreso: 2026-11-06 | Calidad: A | Recibido: 500 kg | Disponible: 400 kg | DISPONIBLE | Vence: No vence | Bodega: S1 | Humedad: 13.4%
+  ORG-A | CAFE_ORGANICO | Marta | Ingreso: 2026-11-07 | Calidad: A | Recibido: 500 kg | Disponible: 500 kg | DISPONIBLE | Vence: No vence | Bodega: S1 | Humedad: 13.4% | Sello: CertiGT | Vigencia: 2027-11-16
+  NUEVO | CAFE | Pedro | Ingreso: 2026-11-16 | Calidad: A | Recibido: 100 kg | Disponible: 100 kg | DISPONIBLE | Vence: No vence | Bodega: S1 | Humedad: 13.4%
+S2 | SECA | Ocupación: 500/5000 kg
+  CAR-B | CARDAMOMO | Sara | Ingreso: 2026-08-08 | Calidad: A | Recibido: 100 kg | Disponible: 100 kg | DISPONIBLE | Vence: 2027-02-04 | Bodega: S2 | Grano verde: 80%
+  CAF-B | CAFE | Luis | Ingreso: 2026-11-06 | Calidad: B | Recibido: 300 kg | Disponible: 300 kg | DISPONIBLE | Vence: No vence | Bodega: S2 | Humedad: 12%
+  ORG-B | CAFE_ORGANICO | Juan | Ingreso: 2026-11-08 | Calidad: B | Recibido: 100 kg | Disponible: 100 kg | DISPONIBLE | Vence: No vence | Bodega: S2 | Humedad: 11% | Sello: EcoGT | Vigencia: 2027-02-24
+S3 | SECA | Ocupación: 0/100 kg
+  Sin lotes almacenados.
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: 
+CAFE
+CAF-A | CAFE | Ana | Ingreso: 2026-11-06 | Calidad: A | Recibido: 500 kg | Disponible: 400 kg | DISPONIBLE | Vence: No vence | Bodega: S1 | Humedad: 13.4%
+CAF-B | CAFE | Luis | Ingreso: 2026-11-06 | Calidad: B | Recibido: 300 kg | Disponible: 300 kg | DISPONIBLE | Vence: No vence | Bodega: S2 | Humedad: 12%
+NUEVO | CAFE | Pedro | Ingreso: 2026-11-16 | Calidad: A | Recibido: 100 kg | Disponible: 100 kg | DISPONIBLE | Vence: No vence | Bodega: S1 | Humedad: 13.4%
+Existencia: 800 kg
+
+CAFE_ORGANICO
+ORG-A | CAFE_ORGANICO | Marta | Ingreso: 2026-11-07 | Calidad: A | Recibido: 500 kg | Disponible: 500 kg | DISPONIBLE | Vence: No vence | Bodega: S1 | Humedad: 13.4% | Sello: CertiGT | Vigencia: 2027-11-16
+ORG-B | CAFE_ORGANICO | Juan | Ingreso: 2026-11-08 | Calidad: B | Recibido: 100 kg | Disponible: 100 kg | DISPONIBLE | Vence: No vence | Bodega: S2 | Humedad: 11% | Sello: EcoGT | Vigencia: 2027-02-24
+Existencia: 600 kg
+
+CARDAMOMO
+CAR-A | CARDAMOMO | Pedro | Ingreso: 2026-05-21 | Calidad: B | Recibido: 80 kg | Disponible: 80 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: S1 | Grano verde: 90%
+CAR-B | CARDAMOMO | Sara | Ingreso: 2026-08-08 | Calidad: A | Recibido: 100 kg | Disponible: 100 kg | DISPONIBLE | Vence: 2027-02-04 | Bodega: S2 | Grano verde: 80%
+Existencia: 180 kg
+
+HORTALIZA
+HOR-A | HORTALIZA | Elena | Ingreso: 2026-11-10 | Calidad: A | Recibido: 200 kg | Disponible: 200 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: F1 | Vida útil: 7 días | Cámara fría
+HOR-B | HORTALIZA | Marco | Ingreso: 2026-11-13 | Calidad: B | Recibido: 120 kg | Disponible: 120 kg | DISPONIBLE | Vence: 2026-11-23 | Bodega: F1 | Vida útil: 10 días | Cámara fría
+Existencia: 320 kg
+
+QUESO_FRESCO
+QUE-A | QUESO_FRESCO | Rosa | Ingreso: 2026-10-27 | Calidad: A | Recibido: 40 kg | Disponible: 40 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: F1 | Grasa: 25% | Cámara fría
+QUE-B | QUESO_FRESCO | Hugo | Ingreso: 2026-11-11 | Calidad: B | Recibido: 60 kg | Disponible: 60 kg | DISPONIBLE | Vence: 2026-12-02 | Bodega: F1 | Grasa: 20% | Cámara fría
+Existencia: 100 kg
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: Nueva fecha (AAAA-MM-DD): Operación rechazada: La fecha debe avanzar al menos un día.
+
+Fecha de operación: 2026-11-16
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: Nueva fecha (AAAA-MM-DD): Fecha inválida: usa AAAA-MM-DD.
+Nueva fecha (AAAA-MM-DD): Fecha avanzada y lotes vencidos descartados.
+
+Fecha de operación: 2026-11-17
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: HOR-A | HORTALIZA | Elena | Ingreso: 2026-11-10 | Calidad: A | Recibido: 200 kg | Disponible: 200 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: F1 | Vida útil: 7 días | Cámara fría
+QUE-A | QUESO_FRESCO | Rosa | Ingreso: 2026-10-27 | Calidad: A | Recibido: 40 kg | Disponible: 40 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: F1 | Grasa: 25% | Cámara fría
+CAR-A | CARDAMOMO | Pedro | Ingreso: 2026-05-21 | Calidad: B | Recibido: 80 kg | Disponible: 80 kg | DISPONIBLE | Vence: 2026-11-17 | Bodega: S1 | Grano verde: 90%
+
+Fecha de operación: 2026-11-17
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: Nueva fecha (AAAA-MM-DD): Fecha avanzada y lotes vencidos descartados.
+
+Fecha de operación: 2026-11-18
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: CAFE | Pagado: Q1128.00 | Cobrado: Q1522.80 | Pérdidas: Q0.00
+CAFE_ORGANICO | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q0.00
+CARDAMOMO | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q4224.00
+HORTALIZA | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q760.00
+QUESO_FRESCO | Pagado: Q0.00 | Cobrado: Q0.00 | Pérdidas: Q1460.00
+
+Fecha de operación: 2026-11-18
+1. Pre-liquidar y recibir lote
+2. Registrar bodega
+3. Registrar pedido y despachar
+4. Avanzar fecha
+5. Consultar todos los lotes
+6. Consultar bodegas
+7. Existencias por categoría
+8. Vencimientos próximos 3 días
+9. Reporte financiero
+10. Salir
+Opción: Programa finalizado.

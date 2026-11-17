@@ -1,0 +1,3 @@
+public enum Categoria {
+    CAFE, CAFE_ORGANICO, CARDAMOMO, HORTALIZA, QUESO_FRESCO
+}

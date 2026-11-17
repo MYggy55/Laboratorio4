@@ -1,0 +1,96 @@
+OK | Café A 500 kg humedad 13.4 | esperado=5640 | obtenido=5640
+OK | Humedad 12 sin descuento | esperado=6000 | obtenido=6000
+OK | Fracción 12.01 descuenta 3% | esperado=5820 | obtenido=5820
+OK | Humedad 13 descuenta 3% | esperado=5820 | obtenido=5820
+OK | Humedad 14 descuenta 6% | esperado=5640 | obtenido=5640
+OK | Tarifa café B | esperado=9 | obtenido=9
+OK | Tarifa café C | esperado=6 | obtenido=6
+OK | Orgánico: base más bono | esperado=6015 | obtenido=6015
+OK | Sello válido el mismo día | esperado=false | obtenido=false
+OK | Cardamomo B 80 kg verde 90 | esperado=4224 | obtenido=4224
+OK | Verde 85 incluye bono | esperado=66 | obtenido=66
+OK | Verde 84.99 sin bono | esperado=60 | obtenido=60
+OK | Cardamomo calidad C | esperado=35 | obtenido=35
+OK | Hortaliza merma 5% | esperado=760 | obtenido=760
+OK | Hortaliza B | esperado=2.85 | obtenido=2.85
+OK | Hortaliza C | esperado=1.9 | obtenido=1.9
+OK | Queso A empaque | esperado=1460 | obtenido=1460
+OK | Queso B empaque | esperado=28.5 | obtenido=28.5
+OK | Vencimiento ingreso más vida | esperado=2026-03-12 | obtenido=2026-03-12
+OK | Día de vencimiento aún válido | esperado=false | obtenido=false
+OK | Vencido desde día siguiente | esperado=true | obtenido=true
+OK | Cardamomo vence a 180 días | esperado=2026-09-01 | obtenido=2026-09-01
+OK | Queso vence a 21 días | esperado=2026-03-26 | obtenido=2026-03-26
+OK | Pre-liquidar no altera estado | esperado=true | obtenido=true
+OK | Recepción registra pago completo | esperado=1650 | obtenido=1650
+OK | Pedido insuficiente | esperado=Rechazada | obtenido=Rechazada
+OK | Rechazo sin descuentos ni cobros | esperado=true | obtenido=true
+OK | Despacho combina tres lotes | esperado=3 | obtenido=3
+OK | Orden global código A antes B | esperado=AA | obtenido=AA
+OK | Orden por calidad antes de código | esperado=BC | obtenido=BC
+OK | Combina bodegas S2 y S1 | esperado=true | obtenido=true
+OK | Cobro con margen 35% | esperado=1741.5 | obtenido=1741.5
+OK | Consumo parcial del tercer lote | esperado=40 | obtenido=40
+OK | Agotado queda en historial | esperado=AGOTADO | obtenido=AGOTADO
+OK | Agotado libera bodega | esperado=0 | obtenido=0
+OK | Pedido repetido | esperado=Rechazada | obtenido=Rechazada
+OK | Pedido repetido conserva todo | esperado=true | obtenido=true
+OK | Ejemplo café 100 kg despacho | esperado=1522.8 | obtenido=1522.8
+OK | En fecha límite permanece disponible | esperado=DISPONIBLE | obtenido=DISPONIBLE
+OK | Después de vencer queda descartado | esperado=DESCARTADO | obtenido=DESCARTADO
+OK | Pérdida por 50 kg restantes | esperado=190 | obtenido=190
+OK | Descartado deja cero disponible | esperado=0 | obtenido=0
+OK | Descartado libera capacidad | esperado=40 | obtenido=40
+OK | Segunda pérdida no duplica primera | esperado=190 | obtenido=190
+OK | Pérdida queso completo | esperado=1460 | obtenido=1460
+OK | Ambos descartes dejan bodega vacía | esperado=0 | obtenido=0
+OK | Fecha hacia atrás | esperado=Rechazada | obtenido=Rechazada
+OK | Fecha rechazada conserva estado | esperado=true | obtenido=true
+OK | Exceso de capacidad | esperado=Rechazada | obtenido=Rechazada
+OK | Capacidad rechazada no paga | esperado=true | obtenido=true
+OK | Capacidad exacta aceptada | esperado=10 | obtenido=10
+OK | Hortaliza incompatible con seca | esperado=Rechazada | obtenido=Rechazada
+OK | Café incompatible con fría | esperado=Rechazada | obtenido=Rechazada
+OK | Incompatibles conservan estado | esperado=true | obtenido=true
+OK | Lote duplicado | esperado=Rechazada | obtenido=Rechazada
+OK | Bodega duplicada | esperado=Rechazada | obtenido=Rechazada
+OK | Código vacío | esperado=Rechazada | obtenido=Rechazada
+OK | Peso cero | esperado=Rechazada | obtenido=Rechazada
+OK | Humedad menor que 8 | esperado=Rechazada | obtenido=Rechazada
+OK | Humedad mayor que 14 | esperado=Rechazada | obtenido=Rechazada
+OK | Sello vencido al ingreso | esperado=Rechazada | obtenido=Rechazada
+OK | Verde fuera de rango | esperado=Rechazada | obtenido=Rechazada
+OK | Vida útil fuera de rango | esperado=Rechazada | obtenido=Rechazada
+OK | Queso calidad C | esperado=Rechazada | obtenido=Rechazada
+OK | Grasa fuera de rango | esperado=Rechazada | obtenido=Rechazada
+OK | Categoría sin existencia | esperado=Rechazada | obtenido=Rechazada
+OK | Nuevo ingreso con fecha anterior | esperado=Rechazada | obtenido=Rechazada
+OK | Cero cobros tras fallos | esperado=0 | obtenido=0
+OK | Perecedero antes que café y calidad A | esperado=K1 | obtenido=K1
+OK | Después calidad B | esperado=K2 | obtenido=K2
+OK | No perecedero al final | esperado=CAFE | obtenido=CAFE
+OK | No perecederos: fecha antes que calidad | esperado=ANTIGUO | obtenido=ANTIGUO
+OK | Datos iniciales: diez lotes | esperado=10 | obtenido=10
+OK | Datos iniciales: tres bodegas | esperado=3 | obtenido=3
+OK | Dos lotes iniciales CAFE | esperado=2 | obtenido=2
+OK | Sin pago inicial CAFE | esperado=0 | obtenido=0
+OK | Sin cobro inicial CAFE | esperado=0 | obtenido=0
+OK | Dos lotes iniciales CAFE_ORGANICO | esperado=2 | obtenido=2
+OK | Sin pago inicial CAFE_ORGANICO | esperado=0 | obtenido=0
+OK | Sin cobro inicial CAFE_ORGANICO | esperado=0 | obtenido=0
+OK | Dos lotes iniciales CARDAMOMO | esperado=2 | obtenido=2
+OK | Sin pago inicial CARDAMOMO | esperado=0 | obtenido=0
+OK | Sin cobro inicial CARDAMOMO | esperado=0 | obtenido=0
+OK | Dos lotes iniciales HORTALIZA | esperado=2 | obtenido=2
+OK | Sin pago inicial HORTALIZA | esperado=0 | obtenido=0
+OK | Sin cobro inicial HORTALIZA | esperado=0 | obtenido=0
+OK | Dos lotes iniciales QUESO_FRESCO | esperado=2 | obtenido=2
+OK | Sin pago inicial QUESO_FRESCO | esperado=0 | obtenido=0
+OK | Sin cobro inicial QUESO_FRESCO | esperado=0 | obtenido=0
+OK | Descartar mientras se recorre | esperado=DESCARTADO | obtenido=DESCARTADO
+OK | Pérdida inicial valorada sin pago | esperado=760 | obtenido=760
+OK | FEFO prioriza vencimiento a calidad | esperado=PRONTO | obtenido=PRONTO
+OK | Despacho respeta FEFO | esperado=PRONTO | obtenido=PRONTO
+OK | Segundo lote después de FEFO | esperado=TARDE | obtenido=TARDE
+Total de verificaciones: 94
+Todas las pruebas pasaron.
